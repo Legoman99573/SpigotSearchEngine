@@ -3,7 +3,7 @@
   The SSElocalStorage.js is setting up at the first use
 */
 
-let SSEVersion = "3.0.2";
+let SSEVersion = "3.0.3";
 
 class SSELocalStorag {
   /*
@@ -85,6 +85,8 @@ let types = [
   { type: "Version_v1_19", value: true },
   { type: "Version_v1_20", value: true },
   { type: "Version_v1_21", value: true },
+  { type: "Version_v26.1", value: true },
+  { type: "Version_v26.2", value: true },
   { type: "Version_Unknown", value: true },
 
   { type: "SearchOnPluginName", value: true },
